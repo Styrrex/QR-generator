@@ -1,0 +1,17 @@
+{
+  "id": "./",
+  "name": "QR-генератор",
+  "short_name": "QR",
+  "description": "Создание QR-кодов из текста и ссылок",
+  "lang": "ru",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ffd6c9",
+  "theme_color": "#c9b8ff",
+  "icons": [
+    {"src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}
