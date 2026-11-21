@@ -39,6 +39,7 @@ details[open] summary{margin-bottom:14px}
 .presets button.on{border-color:var(--ink)}
 .reset{width:100%;margin-top:14px;font-weight:400;font-size:15px;border-color:var(--ln)}
 .hint{font-size:14px;opacity:.75;margin:0 0 14px;min-height:1.4em}
+.by{text-align:center;font-size:14px;opacity:.7;margin-top:20px}
 :focus-visible{outline:3px solid var(--ac);outline-offset:2px}
 </style>
 </head>
@@ -55,7 +56,7 @@ details[open] summary{margin-bottom:14px}
 
   <div class="card">
     <label for="txt">Текст или ссылка</label>
-    <textarea id="txt" placeholder="https://example.com">https://claude.ai</textarea>
+    <textarea id="txt" placeholder="https://example.com"></textarea>
     <label class="gap" for="lvl">Защита от повреждений</label>
     <select id="lvl">
       <option value="L">Низкая (L)</option>
@@ -82,6 +83,7 @@ details[open] summary{margin-bottom:14px}
     </div>
     <button class="reset" id="reset" type="button">Сбросить настройки</button>
   </details>
+  <footer class="by">Создатель @styrrex</footer>
 </main>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
